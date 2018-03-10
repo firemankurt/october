@@ -99,7 +99,7 @@ class Page extends CmsCompoundObject
 
             $result[$baseName] = strlen($layout->name) ? $layout->name : $baseName;
         }
-
+        asort($result);
         return $result;
     }
 
