@@ -452,6 +452,8 @@ return [
         'number_all' => 'all numbers',
     ],
     'import_export' => [
+        'import_records' => 'Import records',
+        'export_records' => 'Export records',
         'upload_csv_file' => '1. Upload a CSV file',
         'import_file' => 'Import file',
         'row' => 'Row :row',
